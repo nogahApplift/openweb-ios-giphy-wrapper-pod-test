@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint openweb-ios-giphy-wrapper-pod-test2.podspec' to ensure this is a
+# Be sure to run `pod lib lint openweb-ios-giphy-wrapper-pod-test.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'openweb-ios-giphy-wrapper-pod-test'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of openweb-ios-giphy-wrapper-pod-test.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Nogah/openweb-ios-giphy-wrapper-pod-test'
+  s.homepage         = 'https://github.com/nogahApplift/openweb-ios-giphy-wrapper-pod-test'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Nogah' => 'nogah@applift-consulting.com' }
-  s.source           = { :git => 'https://github.com/Nogah/openweb-ios-giphy-wrapper-pod-test.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/nogahApplift/openweb-ios-giphy-wrapper-pod-test.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
