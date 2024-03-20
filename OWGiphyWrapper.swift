@@ -8,7 +8,7 @@
 
 import Foundation
 #if canImport(GiphyUISDK)
-import GiphyUISDK
+@_exported import GiphyUISDK
 #endif
 
 public class OWGiphyWrapper {
